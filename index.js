@@ -3,7 +3,10 @@ const fs = require("fs");
 function Folders() {
   fs.mkdirSync("./css");
   fs.mkdirSync("./js");
-  fs.mkdirSync("./img");
+  fs.mkdirSync("./media");
+  fs.mkdirSync("./media/img");
+  fs.mkdirSync("./media/video");
+  fs.mkdirSync("./media/audio");
   console.log("Folders: css, js, img create.");
 }
 
